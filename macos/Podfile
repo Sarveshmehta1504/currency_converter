@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+platform :osx, '10.14'
+
+flutter_application_path = '../'
+if File.exist?(File.join(flutter_application_path, '.flutter-plugins-dependencies'))
+  load File.join(flutter_application_path, '.flutter-plugins-dependencies')
+end
+
+target 'Runner' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Runner
+
+  target 'RunnerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
