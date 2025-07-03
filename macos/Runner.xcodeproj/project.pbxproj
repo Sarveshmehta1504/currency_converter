@@ -195,7 +195,6 @@
 				B8D5BCCA4AB4FD7306F97637 /* Pods-RunnerTests.release.xcconfig */,
 				CB9608BDAF04E16AEDF74AD7 /* Pods-RunnerTests.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -562,6 +561,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = H3QTMQK9HU;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				EXCLUDED_ARCHS = x86_64;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				INFOPLIST_FILE = Runner/Info.plist;
@@ -706,6 +706,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = H3QTMQK9HU;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				EXCLUDED_ARCHS = x86_64;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				INFOPLIST_FILE = Runner/Info.plist;
@@ -735,6 +736,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = H3QTMQK9HU;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				EXCLUDED_ARCHS = x86_64;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				INFOPLIST_FILE = Runner/Info.plist;
